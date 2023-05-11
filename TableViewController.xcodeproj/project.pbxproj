@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6D06C6682A0CF6C100AFA513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C6672A0CF6C100AFA513 /* AppDelegate.swift */; };
 		6D06C66A2A0CF6C100AFA513 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C6692A0CF6C100AFA513 /* SceneDelegate.swift */; };
-		6D06C66C2A0CF6C100AFA513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C66B2A0CF6C100AFA513 /* ViewController.swift */; };
 		6D06C66F2A0CF6C100AFA513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D06C66D2A0CF6C100AFA513 /* Main.storyboard */; };
 		6D06C6722A0CF6C100AFA513 /* TableViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C6702A0CF6C100AFA513 /* TableViewController.xcdatamodeld */; };
 		6D06C6742A0CF6C200AFA513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D06C6732A0CF6C200AFA513 /* Assets.xcassets */; };
@@ -17,6 +16,12 @@
 		6D06C6822A0CF6C200AFA513 /* TableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C6812A0CF6C200AFA513 /* TableViewControllerTests.swift */; };
 		6D06C68C2A0CF6C200AFA513 /* TableViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C68B2A0CF6C200AFA513 /* TableViewControllerUITests.swift */; };
 		6D06C68E2A0CF6C200AFA513 /* TableViewControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C68D2A0CF6C200AFA513 /* TableViewControllerUITestsLaunchTests.swift */; };
+		6D06C69B2A0CFA5F00AFA513 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C69A2A0CFA5F00AFA513 /* TableViewController.swift */; };
+		6D06C69D2A0CFA8400AFA513 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C69C2A0CFA8400AFA513 /* AddViewController.swift */; };
+		6D06C6A32A0CFBC700AFA513 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D06C6A02A0CFBC700AFA513 /* clock.png */; };
+		6D06C6A42A0CFBC700AFA513 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D06C6A12A0CFBC700AFA513 /* cart.png */; };
+		6D06C6A52A0CFBC700AFA513 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D06C6A22A0CFBC700AFA513 /* pencil.png */; };
+		6D06C6A72A0D077A00AFA513 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06C6A62A0D077A00AFA513 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,6 @@
 		6D06C6642A0CF6C100AFA513 /* TableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D06C6672A0CF6C100AFA513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D06C6692A0CF6C100AFA513 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D06C66B2A0CF6C100AFA513 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D06C66E2A0CF6C100AFA513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D06C6712A0CF6C100AFA513 /* TableViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableViewController.xcdatamodel; sourceTree = "<group>"; };
 		6D06C6732A0CF6C200AFA513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		6D06C6872A0CF6C200AFA513 /* TableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D06C68B2A0CF6C200AFA513 /* TableViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerUITests.swift; sourceTree = "<group>"; };
 		6D06C68D2A0CF6C200AFA513 /* TableViewControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D06C69A2A0CFA5F00AFA513 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6D06C69C2A0CFA8400AFA513 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		6D06C6A02A0CFBC700AFA513 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		6D06C6A12A0CFBC700AFA513 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		6D06C6A22A0CFBC700AFA513 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		6D06C6A62A0D077A00AFA513 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,19 @@
 		6D06C6662A0CF6C100AFA513 /* TableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6D06C6A12A0CFBC700AFA513 /* cart.png */,
+				6D06C6A02A0CFBC700AFA513 /* clock.png */,
+				6D06C6A22A0CFBC700AFA513 /* pencil.png */,
 				6D06C6672A0CF6C100AFA513 /* AppDelegate.swift */,
 				6D06C6692A0CF6C100AFA513 /* SceneDelegate.swift */,
-				6D06C66B2A0CF6C100AFA513 /* ViewController.swift */,
+				6D06C69A2A0CFA5F00AFA513 /* TableViewController.swift */,
+				6D06C69C2A0CFA8400AFA513 /* AddViewController.swift */,
 				6D06C66D2A0CF6C100AFA513 /* Main.storyboard */,
 				6D06C6732A0CF6C200AFA513 /* Assets.xcassets */,
 				6D06C6752A0CF6C200AFA513 /* LaunchScreen.storyboard */,
 				6D06C6782A0CF6C200AFA513 /* Info.plist */,
 				6D06C6702A0CF6C100AFA513 /* TableViewController.xcdatamodeld */,
+				6D06C6A62A0D077A00AFA513 /* DetailViewController.swift */,
 			);
 			path = TableViewController;
 			sourceTree = "<group>";
@@ -234,6 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D06C6A52A0CFBC700AFA513 /* pencil.png in Resources */,
+				6D06C6A32A0CFBC700AFA513 /* clock.png in Resources */,
+				6D06C6A42A0CFBC700AFA513 /* cart.png in Resources */,
 				6D06C6772A0CF6C200AFA513 /* LaunchScreen.storyboard in Resources */,
 				6D06C6742A0CF6C200AFA513 /* Assets.xcassets in Resources */,
 				6D06C66F2A0CF6C100AFA513 /* Main.storyboard in Resources */,
@@ -261,10 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D06C66C2A0CF6C100AFA513 /* ViewController.swift in Sources */,
+				6D06C69D2A0CFA8400AFA513 /* AddViewController.swift in Sources */,
 				6D06C6682A0CF6C100AFA513 /* AppDelegate.swift in Sources */,
 				6D06C6722A0CF6C100AFA513 /* TableViewController.xcdatamodeld in Sources */,
+				6D06C6A72A0D077A00AFA513 /* DetailViewController.swift in Sources */,
 				6D06C66A2A0CF6C100AFA513 /* SceneDelegate.swift in Sources */,
+				6D06C69B2A0CFA5F00AFA513 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
